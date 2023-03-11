@@ -1,0 +1,140 @@
+.nav{
+    justify-content: space-between  ;
+    width: 1600px;
+    flex-wrap: wrap;
+z-index: 1;
+}
+.nav img{
+    width: 250px;
+    height: 60px;
+    margin-left: 35px;
+}
+.nav ul {display: flex;
+    flex-wrap: wrap;
+text-decoration: none;
+margin-top: 15px;
+margin-right: 67px;
+z-index: 1;
+}
+
+.nav ul li{
+    list-style-type:none ;
+    margin-right: 33px;
+    font-size: 15px;
+    flex-wrap: wrap;
+    text-shadow: 2px  rgb(63, 62, 62);
+
+}.nav ul li:hover{
+    text-decoration: underline rgb(22, 195, 22) 2px;
+    cursor: pointer;
+}
+
+.navbar{
+    height: 80px;
+    width: 1520px;
+    box-shadow: 2px 2px rgb(212, 211, 211);
+    flex-wrap: wrap;
+    z-index: 1;
+
+}
+.portion{
+    display: flex;
+    justify-content: space-between ;
+    margin-top: 45px;
+}
+.box1{
+    height: 490px;
+    width: 570px;
+    margin-top: 45px;
+}
+.box1 h4{
+    margin-top:28px;
+    font-weight: bold;
+}
+.box2{
+
+    height: 490px;
+    width: 350px;
+justify-content: left;
+margin-right: 130px;}
+
+
+.after{background-color: #F0FCDC;
+width: 1444px;
+height: 130px;
+}
+
+
+.bot{width: 170px;
+    height: 60px;
+display: flex;
+float: right;
+margin-right: 20px;
+margin-top: 35px;
+border-radius: 12px ;
+border: 1px solid whitesmoke;
+background-color: rgb(255, 255, 255);
+font-weight:550 ;
+justify-content: center;
+}.bot:hover{height: 70px;
+width: 175px;
+background-color: rgb(74, 73, 73);
+color: whitesmoke;}
+
+.afterbut ul {list-style-type: none;
+display: flex;
+margin-top: 35px;}
+
+.banner{
+    width: 1300px; 
+    height: 530px;
+    margin-top: 25px;
+}
+
+
+.footer{width: 1500px;
+height: 30px;
+background-color: gray;
+margin-top: 80px}
+
+.heading{
+    width: 1400px;
+    height: 50px;
+    text-align: center;
+margin-top: 25px;
+}.heading h1{
+font-size: xx-large;
+font-weight:400 ;
+color: rgb(34, 34, 34);
+text-shadow: 1px 0px;
+}
+.boxlist ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}.boxlist{height: 210PX;}
+
+.box{
+    height: 160px ;
+    width: 190px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}.box:hover{
+    height: 167px;
+    width: 200px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.box h6{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size:16px;
+}
+.box img{
+    height: 70px;
+}
